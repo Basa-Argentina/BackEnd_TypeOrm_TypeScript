@@ -8,7 +8,7 @@ import {createConnection} from 'typeorm'
 import userRoutes from './routes/user.routes'
 
 const app = express();
-createConnection();
+ createConnection();
 
 // Middlewares
 app.use(cors());
