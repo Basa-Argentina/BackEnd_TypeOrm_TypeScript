@@ -1,0 +1,48 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": "3306",
+  "username": "root",
+  "password": "faztpassword",
+  "database": "test",
+  "entities": ["dist/entity/**/*.js"],
+  "logging": false,
+  "synchronize": true
+}
+
+"schema" :  "public",
+
+ //  "entities": ["dist/**/*.entity{.ts,.js}"],
+  //   "schema" :  "public",
+  //  "synchronize": true
+
+
+  // {
+  //   "type": "mysql",
+  //   "host": "localhost",
+  //   "port": "3306",
+  //   "username": "root",
+  //   "password": "faztpassword",
+  //   "database": "test",
+  //   "entities": ["dist/entity/**/*.js"],
+  //   "logging": false,
+  //   "synchronize": true
+  // }
+
+
+{
+  "type" : "mssql",
+  "host" :"PCLBORELLOSSD",
+  "port" : 1433,
+  "username" : "sa",
+  "Database" : "test" ,
+  "password" : "Basa2012",
+  "autoSchemaSync": true,
+  "options": {
+     "encrypt": true,
+    "enableArithAbort": true
+  },
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+  }
+

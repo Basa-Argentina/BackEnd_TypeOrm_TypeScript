@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { getRepository } from "typeorm";
 import {getManager} from "typeorm";
 import {getConnection} from "typeorm";
-import { Persona } from "../entity/Persona";
+import { Persona } from "../entity/table/Persona";
 
 // export const getPersonas = async (
 //   req: Request,

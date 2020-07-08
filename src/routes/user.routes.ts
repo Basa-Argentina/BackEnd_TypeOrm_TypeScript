@@ -11,6 +11,7 @@ import {
   deleteUser
 } from "../controllers/user.controller";
 
+router.get("/luis/users", getUsers);
 router.get("/users", getUsers);
 router.get("/users/:id", getUser);
 router.post("/users", createUser);
