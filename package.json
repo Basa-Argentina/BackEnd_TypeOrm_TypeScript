@@ -27,6 +27,7 @@
     "mysql": "^2.18.1",
     "reflect-metadata": "^0.1.13",
     "tsc-watch": "^4.2.9",
-    "typeorm": "^0.2.22"
+    "typeorm": "^0.2.22",
+    "typeorm-model-generator": "^0.4.2"
   }
 }

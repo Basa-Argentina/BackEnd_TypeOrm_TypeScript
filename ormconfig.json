@@ -1,23 +1,14 @@
-{
-  "type": "mssql",
-  "host": "222.15.19.150",
-  "port": 1433,
-  "username": "sa",
-  "password": "Sicuyo123",
-  "database": "prueba",
-  "synchronize": true,
-  "logging": true,
-  "options": {
-    "encrypt": false,
-   "enableArithAbort": true
- },
- "entities": ["dist/entity/**/*.js"],
-    "migrationsTableName": "migration",
-  "migrations": [
-    "src/migration/*.ts"
-  ],
-  "cli": {
-    "migrationsDir": "./src/migration"
-  },
-  "ssl": false
-}
+[
+  {
+    "name": "default",
+    "type": "mssql",
+    "host": "222.15.19.150",
+    "port": 1433,
+    "username": "sa",
+    "password": "Sicuyo123",
+    "database": "prueba",
+    "schema": "dbo",
+    "synchronize": false,
+    "entities": ["entities/*.js"]
+  }
+]
